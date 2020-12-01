@@ -7,3 +7,16 @@
 // 30
 // Debe usar la operación aritmética MOD y un ciclo
 // repetitivo Para
+
+1. Inicio
+2. numero, i[0,n] 
+3. cadena, x(100)[(0,9)]
+4. Para(numero<-- 5,numero<=10,5)haga
+5.   Si((numero MOD 2)==0)
+6.    cadena <-- cadena + numero +"\n"
+7.    de lo contrario
+8.    cadena <-- cadena + numero +"\n"
+9.   Finsi
+10. Fin_Para
+11. escribir numero
+12. Fin
