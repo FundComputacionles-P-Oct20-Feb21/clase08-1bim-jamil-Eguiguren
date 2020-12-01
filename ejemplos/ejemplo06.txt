@@ -7,3 +7,6 @@
 9.  Fin Mientras"
 10. << n
 11. Fin
+
+// el error esta en la linea 4 ya que pone que sea mayor que 2 y la variable que tenemos es 2
+   por lo que no se va a presentar nada
