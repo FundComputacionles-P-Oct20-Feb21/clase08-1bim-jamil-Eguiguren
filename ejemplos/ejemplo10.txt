@@ -21,3 +21,29 @@
 // Promedio de edades: 19.5
 
 
+1. Inicio
+2. contador, i[0,n]<--1
+3. nombre, x(100)[(A-Z),(a-z)]
+4. apellido, x(100)[(A-Z),(a-z)]
+5. edad, i[0,n]
+6. cadenafinal, x(100)[(A-Z),(a-z),(0-9)]
+7. cadenanombre, x(100)[(A-Z),(a-z),(0-9)]
+8. cadenaapellido, x(100)[(A-Z),(a-z),(0-9)]
+9. cadenaedad, i[(0,n)]
+10. promedioedad, d[(0,n)]
+11. Para(contador<--1,contador<=4,1) haga
+12.   Escribir "Ingrese su nombre"
+13.   leer nombre
+14.   Escribir "Ingrese su apellido"
+15.   leer nombre
+16.   Escribir "Ingrese su edad"
+17.   leer edad
+18.    cadenanombre <-- cadenanombre + nombre 
+19.    cadenaapellido <-- cadenaapellido + apellido 
+20.    cadenaedad <-- cadenaedad + edad 
+21.  Fin_Para
+22. promedioedad <-- cademaedad / contador
+23. cadenafinal <-- cadenanombre + "\n" + cadenaapellido + "\n" +    promedioedad +"\n"
+24. Escrbir cadenafinal
+25. Fin
+
