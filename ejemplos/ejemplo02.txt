@@ -1,6 +1,8 @@
 1. Inicio
 2. edad, i[0,n]
-3. Si edad >= 18 entonces
-4.   Escribir "La edad ingresada pertenece a mayor de edad"
-5. Fin si
-6. Fin
+3.   Escribir "ingrese su edad: "
+4.   leer edad 
+5. Si edad >= 18 entonces 
+6.   Escribir "La edad ingresada pertenece a mayor de edad"
+7. Fin si
+8. Fin
