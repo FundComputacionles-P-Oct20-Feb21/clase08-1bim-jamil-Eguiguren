@@ -9,16 +9,20 @@
 9.  porcentaje, d[0,n]
 10. porcentaje <-- 20
 11. Escribir "Ingrese el valor mensual de Netflix"
-12. Lea valorNetflix
+12. Lea valorNetflix //5
 13. Escribir "Ingrese el valor mensual de Youtube"
-14. Lea valorYoutube
+14. Lea valorYoutube //3
 15. Escribir "Ingrese el valor mensual de Dropbox"
-16. Lea valorDropbox
+16. Lea valorDropbox //10
 17. Escribir "Ingrese el valor mensual de Spotify"
-18. Lea valorSpotify
+18. Lea valorSpotify //5
 19. valorTotal = valorNetflix + valorYoutube + valorDropbox + valorSpotify
 20. Si edad < 30 entonces
 21.   descuento <-- (porcentaje * valorTotal)/100
 22. Fin si
 23. Escribir "El valor total a pagar es: " + valorTotal
 24. Fin
+
+// falta darle un valor a porcentaje
+// falta un proceso que es sumar ell descuento mas el valortotal
+// en este caso la salida es 23 si no es menor de 30 
